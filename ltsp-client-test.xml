@@ -12,16 +12,10 @@
     <Test>pts/xrender</Test>
   </Execute>
   <Execute>
-    <Test>pts/opengl-demos</Test>
-  </Execute>
-  <Execute>
     <Test>pts/video-encoding</Test>
   </Execute>
   <Execute>
     <Test>pts/cryptography</Test>
-  </Execute>
-  <Execute>
-    <Test>pts/mesa</Test>
   </Execute>
   <Execute>
     <Test>pts/network</Test>
