@@ -48,16 +48,7 @@
     <Test>pts/compress-7zip</Test>
   </Execute>
   <Execute>
-    <Test>pts/encode-mp3</Test>
-  </Execute>
-  <Execute>
-    <Test>pts/encode-flac</Test>
-  </Execute>
-  <Execute>
     <Test>pts/cryptography</Test>
-  </Execute>
-  <Execute>
-    <Test>pts/desktop-graphics</Test>
   </Execute>
   <Execute>
     <Test>pts/gui-toolkits</Test>
@@ -66,7 +57,7 @@
     <Test>pts/disk</Test>
   </Execute>
   <Execute>
-    <Test>pts/linux-system</Test>
+    <Test>pts/postmark</Test>
   </Execute>
   <Execute>
     <Test>pts/memory</Test>
@@ -565,5 +556,10 @@
   </Execute>
   <Execute>
     <Test>pts/tscp</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/dbench</Test>
+    <Arguments>12</Arguments>
+    <Description>12 Clients</Description>
   </Execute>
 </PhoronixTestSuite>
