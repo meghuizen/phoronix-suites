@@ -1,0 +1,9 @@
+This repository contains Phoronix Test Suites I use.
+
+To install:
+  wget -O ltsp-server-test.xml https://raw.github.com/meghuizen/phoronix-suites/master/ltsp-server-test.xml
+  mkdir -p ~/.phoronix-test-suite/test-suites/local/ltsp-server-test
+  cp ltsp-server-test.xml ~/.phoronix-test-suite/test-suites/local/ltsp-server-test/suite-definition.xml
+
+  phoronix-test-suite install ltsp-server-test
+  phoronix-test-suite benchmark ltsp-server-test
