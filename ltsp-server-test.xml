@@ -1,0 +1,509 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v3.2.0 (Grimstad)-->
+<PhoronixTestSuite>
+  <SuiteInformation>
+    <Title>LTSP server test</Title>
+    <Version>1.0.0</Version>
+    <TestType>System</TestType>
+    <Description>Build to test LTSP servers</Description>
+    <Maintainer>mr-e</Maintainer>
+  </SuiteInformation>
+  <Execute>
+    <Test>pts/cpu</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/cryptography</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/desktop-graphics</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/gui-toolkits</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/disk</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/linux-system</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/memory</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/multicore</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/network</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/xrender</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/video-encoding</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/c-ray</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/cachebench</Test>
+    <Arguments>-r</Arguments>
+    <Description>Test: Read</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/cachebench</Test>
+    <Arguments>-w</Arguments>
+    <Description>Test: Write</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/cachebench</Test>
+    <Arguments>-b</Arguments>
+    <Description>Test: Read / Modify / Write</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/compress-gzip</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/gcrypt</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/gmpbench</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/gtkperf</Test>
+    <Arguments>COMBOBOX</Arguments>
+    <Description>GTK Widget: GtkComboBox</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/gtkperf</Test>
+    <Arguments>COMBOBOX_ENTRY</Arguments>
+    <Description>GTK Widget: GtkComboBoxEntry</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/gtkperf</Test>
+    <Arguments>TOGGLE_BUTTON</Arguments>
+    <Description>GTK Widget: GtkToggleButton</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/gtkperf</Test>
+    <Arguments>CHECK_BUTTON</Arguments>
+    <Description>GTK Widget: GtkCheckButton</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/gtkperf</Test>
+    <Arguments>RADIO_BUTTON</Arguments>
+    <Description>GTK Widget: GtkRadioButton</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/gtkperf</Test>
+    <Arguments>TEXTVIEW_ADD</Arguments>
+    <Description>GTK Widget: GtkTextView - Add Text</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/gtkperf</Test>
+    <Arguments>TEXTVIEW_SCROLL</Arguments>
+    <Description>GTK Widget: GtkTextView - Scroll</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/gtkperf</Test>
+    <Arguments>DRAWING_CIRCLES</Arguments>
+    <Description>GTK Widget: GtkDrawingArea - Circles</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/gtkperf</Test>
+    <Arguments>DRAWING_PIXBUFS</Arguments>
+    <Description>GTK Widget: GtkDrawingArea - Pixbufs</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/gtkperf</Test>
+    <Arguments>TOTAL_TIME</Arguments>
+    <Description>GTK Widget: Total Time</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/iozone</Test>
+    <Arguments>-r 4k -s 512M -i0</Arguments>
+    <Description>Record Size: 4Kb - File Size: 512MB - Disk Test: Write Performance</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/iozone</Test>
+    <Arguments>-r 4k -s 512M -i0 -i1</Arguments>
+    <Description>Record Size: 4Kb - File Size: 512MB - Disk Test: Read Performance</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/iozone</Test>
+    <Arguments>-r 4k -s 2048M -i0</Arguments>
+    <Description>Record Size: 4Kb - File Size: 2GB - Disk Test: Write Performance</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/iozone</Test>
+    <Arguments>-r 4k -s 2048M -i0 -i1</Arguments>
+    <Description>Record Size: 4Kb - File Size: 2GB - Disk Test: Read Performance</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/iozone</Test>
+    <Arguments>-r 4k -s 4096M -i0</Arguments>
+    <Description>Record Size: 4Kb - File Size: 4GB - Disk Test: Write Performance</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/iozone</Test>
+    <Arguments>-r 4k -s 4096M -i0 -i1</Arguments>
+    <Description>Record Size: 4Kb - File Size: 4GB - Disk Test: Read Performance</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/iozone</Test>
+    <Arguments>-r 4k -s 8192M -i0</Arguments>
+    <Description>Record Size: 4Kb - File Size: 8GB - Disk Test: Write Performance</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/iozone</Test>
+    <Arguments>-r 4k -s 8192M -i0 -i1</Arguments>
+    <Description>Record Size: 4Kb - File Size: 8GB - Disk Test: Read Performance</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/iozone</Test>
+    <Arguments>-r 64k -s 512M -i0</Arguments>
+    <Description>Record Size: 64Kb - File Size: 512MB - Disk Test: Write Performance</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/iozone</Test>
+    <Arguments>-r 64k -s 512M -i0 -i1</Arguments>
+    <Description>Record Size: 64Kb - File Size: 512MB - Disk Test: Read Performance</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/iozone</Test>
+    <Arguments>-r 64k -s 2048M -i0</Arguments>
+    <Description>Record Size: 64Kb - File Size: 2GB - Disk Test: Write Performance</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/iozone</Test>
+    <Arguments>-r 64k -s 2048M -i0 -i1</Arguments>
+    <Description>Record Size: 64Kb - File Size: 2GB - Disk Test: Read Performance</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/iozone</Test>
+    <Arguments>-r 64k -s 4096M -i0</Arguments>
+    <Description>Record Size: 64Kb - File Size: 4GB - Disk Test: Write Performance</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/iozone</Test>
+    <Arguments>-r 64k -s 4096M -i0 -i1</Arguments>
+    <Description>Record Size: 64Kb - File Size: 4GB - Disk Test: Read Performance</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/iozone</Test>
+    <Arguments>-r 64k -s 8192M -i0</Arguments>
+    <Description>Record Size: 64Kb - File Size: 8GB - Disk Test: Write Performance</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/iozone</Test>
+    <Arguments>-r 64k -s 8192M -i0 -i1</Arguments>
+    <Description>Record Size: 64Kb - File Size: 8GB - Disk Test: Read Performance</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/iozone</Test>
+    <Arguments>-r 1m -s 512M -i0</Arguments>
+    <Description>Record Size: 1MB - File Size: 512MB - Disk Test: Write Performance</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/iozone</Test>
+    <Arguments>-r 1m -s 512M -i0 -i1</Arguments>
+    <Description>Record Size: 1MB - File Size: 512MB - Disk Test: Read Performance</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/iozone</Test>
+    <Arguments>-r 1m -s 2048M -i0</Arguments>
+    <Description>Record Size: 1MB - File Size: 2GB - Disk Test: Write Performance</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/iozone</Test>
+    <Arguments>-r 1m -s 2048M -i0 -i1</Arguments>
+    <Description>Record Size: 1MB - File Size: 2GB - Disk Test: Read Performance</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/iozone</Test>
+    <Arguments>-r 1m -s 4096M -i0</Arguments>
+    <Description>Record Size: 1MB - File Size: 4GB - Disk Test: Write Performance</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/iozone</Test>
+    <Arguments>-r 1m -s 4096M -i0 -i1</Arguments>
+    <Description>Record Size: 1MB - File Size: 4GB - Disk Test: Read Performance</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/iozone</Test>
+    <Arguments>-r 1m -s 8192M -i0</Arguments>
+    <Description>Record Size: 1MB - File Size: 8GB - Disk Test: Write Performance</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/iozone</Test>
+    <Arguments>-r 1m -s 8192M -i0 -i1</Arguments>
+    <Description>Record Size: 1MB - File Size: 8GB - Disk Test: Read Performance</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/network-loopback</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/npb</Test>
+    <Arguments>bt.A</Arguments>
+    <Description>Test / Class: BT.A</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/npb</Test>
+    <Arguments>cg.B</Arguments>
+    <Description>Test / Class: CG.B</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/npb</Test>
+    <Arguments>ep.B</Arguments>
+    <Description>Test / Class: EP.B</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/npb</Test>
+    <Arguments>ft.B</Arguments>
+    <Description>Test / Class: FT.B</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/npb</Test>
+    <Arguments>is.C</Arguments>
+    <Description>Test / Class: IS.C</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/npb</Test>
+    <Arguments>lu.A</Arguments>
+    <Description>Test / Class: LU.A</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/npb</Test>
+    <Arguments>mg.B</Arguments>
+    <Description>Test / Class: MG.B</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/npb</Test>
+    <Arguments>sp.A</Arguments>
+    <Description>Test / Class: SP.A</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/npb</Test>
+    <Arguments>ua.A</Arguments>
+    <Description>Test / Class: UA.A</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/openssl</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/ramspeed</Test>
+    <Arguments>COPY -b 3</Arguments>
+    <Description>Type: Copy - Benchmark: Integer</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/ramspeed</Test>
+    <Arguments>COPY -b 6</Arguments>
+    <Description>Type: Copy - Benchmark: Floating Point</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/ramspeed</Test>
+    <Arguments>SCALE -b 3</Arguments>
+    <Description>Type: Scale - Benchmark: Integer</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/ramspeed</Test>
+    <Arguments>SCALE -b 6</Arguments>
+    <Description>Type: Scale - Benchmark: Floating Point</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/ramspeed</Test>
+    <Arguments>ADD -b 3</Arguments>
+    <Description>Type: Add - Benchmark: Integer</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/ramspeed</Test>
+    <Arguments>ADD -b 6</Arguments>
+    <Description>Type: Add - Benchmark: Floating Point</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/ramspeed</Test>
+    <Arguments>TRIAD -b 3</Arguments>
+    <Description>Type: Triad - Benchmark: Integer</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/ramspeed</Test>
+    <Arguments>TRIAD -b 6</Arguments>
+    <Description>Type: Triad - Benchmark: Floating Point</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/ramspeed</Test>
+    <Arguments>AVERAGE -b 3</Arguments>
+    <Description>Type: Average - Benchmark: Integer</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/ramspeed</Test>
+    <Arguments>AVERAGE -b 6</Arguments>
+    <Description>Type: Average - Benchmark: Floating Point</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/sqlite</Test>
+    <Description>Test Target: Default Test Directory</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/stream</Test>
+    <Arguments>Copy</Arguments>
+    <Description>Type: Copy</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/stream</Test>
+    <Arguments>Scale</Arguments>
+    <Description>Type: Scale</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/stream</Test>
+    <Arguments>Add</Arguments>
+    <Description>Type: Add</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/stream</Test>
+    <Arguments>Triad</Arguments>
+    <Description>Type: Triad</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/stresscpu2</Test>
+    <Arguments>00:30:00</Arguments>
+    <Description>Run-Time: 30 Minutes</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/systester</Test>
+    <Arguments>-gausslg 4M -threads 64</Arguments>
+    <Description>Algorithm Choice: Gauss-Legendre algorithm - Digits To Calculate: 4 Million Digits - Number of Threads: 64 threads</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/tiobench</Test>
+    <Arguments>-k3 -k2 -k1 -f 32 -t 4</Arguments>
+    <Description>Test: Write - Size Per Thread: 32MB - Thread Count: 4</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/tiobench</Test>
+    <Arguments>-k3 -k2 -k1 -f 64 -t 4</Arguments>
+    <Description>Test: Write - Size Per Thread: 64MB - Thread Count: 4</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/tiobench</Test>
+    <Arguments>-k3 -k2 -k1 -f 128 -t 4</Arguments>
+    <Description>Test: Write - Size Per Thread: 128MB - Thread Count: 4</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/tiobench</Test>
+    <Arguments>-k3 -k2 -k1 -f 256 -t 4</Arguments>
+    <Description>Test: Write - Size Per Thread: 256MB - Thread Count: 4</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/tiobench</Test>
+    <Arguments>-k3 -k2 -f 32 -t 4</Arguments>
+    <Description>Test: Random Write - Size Per Thread: 32MB - Thread Count: 4</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/tiobench</Test>
+    <Arguments>-k3 -k2 -f 64 -t 4</Arguments>
+    <Description>Test: Random Write - Size Per Thread: 64MB - Thread Count: 4</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/tiobench</Test>
+    <Arguments>-k3 -k2 -f 128 -t 4</Arguments>
+    <Description>Test: Random Write - Size Per Thread: 128MB - Thread Count: 4</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/tiobench</Test>
+    <Arguments>-k3 -k2 -f 256 -t 4</Arguments>
+    <Description>Test: Random Write - Size Per Thread: 256MB - Thread Count: 4</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/tiobench</Test>
+    <Arguments>-k3 -k1 -f 32 -t 4</Arguments>
+    <Description>Test: Read - Size Per Thread: 32MB - Thread Count: 4</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/tiobench</Test>
+    <Arguments>-k3 -k1 -f 64 -t 4</Arguments>
+    <Description>Test: Read - Size Per Thread: 64MB - Thread Count: 4</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/tiobench</Test>
+    <Arguments>-k3 -k1 -f 128 -t 4</Arguments>
+    <Description>Test: Read - Size Per Thread: 128MB - Thread Count: 4</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/tiobench</Test>
+    <Arguments>-k3 -k1 -f 256 -t 4</Arguments>
+    <Description>Test: Read - Size Per Thread: 256MB - Thread Count: 4</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/tiobench</Test>
+    <Arguments>-k2 -k1 -f 32 -t 4</Arguments>
+    <Description>Test: Random Read - Size Per Thread: 32MB - Thread Count: 4</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/tiobench</Test>
+    <Arguments>-k2 -k1 -f 64 -t 4</Arguments>
+    <Description>Test: Random Read - Size Per Thread: 64MB - Thread Count: 4</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/tiobench</Test>
+    <Arguments>-k2 -k1 -f 128 -t 4</Arguments>
+    <Description>Test: Random Read - Size Per Thread: 128MB - Thread Count: 4</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/tiobench</Test>
+    <Arguments>-k2 -k1 -f 256 -t 4</Arguments>
+    <Description>Test: Random Read - Size Per Thread: 256MB - Thread Count: 4</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/video-cpu-usage</Test>
+    <Arguments>-vo xv</Arguments>
+    <Description>Video Decoding: X-Video</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/x11perf</Test>
+    <Arguments>-putimage500</Arguments>
+    <Description>Test: 500px PutImage Square</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/x11perf</Test>
+    <Arguments>-scroll500</Arguments>
+    <Description>Test: Scrolling 500 x 500 px</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/x11perf</Test>
+    <Arguments>-aatrapezoid300</Arguments>
+    <Description>Test: Fill 300 x 300px AA Trapezoid</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/x11perf</Test>
+    <Arguments>-copywinwin500</Arguments>
+    <Description>Test: 500px Copy From Window To Window</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/x11perf</Test>
+    <Arguments>-comppixwin500</Arguments>
+    <Description>Test: 500px Compositing From Pixmap To Window</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/x11perf</Test>
+    <Arguments>-compwinwin500</Arguments>
+    <Description>Test: 500px Compositing From Window To Window</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/x11perf</Test>
+    <Arguments>-copypixpix500</Arguments>
+    <Description>Test: Copy 500x500 From Pixmap To Pixmap</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/x11perf</Test>
+    <Arguments>-putimagexy500</Arguments>
+    <Description>Test: PutImage XY 500x500 Square</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/x11perf</Test>
+    <Arguments>-aa10text</Arguments>
+    <Description>Test: Char in 80-char aa line</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/x264</Test>
+  </Execute>
+</PhoronixTestSuite>
