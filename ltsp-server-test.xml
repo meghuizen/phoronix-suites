@@ -9,7 +9,49 @@
     <Maintainer>mr-e</Maintainer>
   </SuiteInformation>
   <Execute>
-    <Test>pts/cpu</Test>
+    <Test>pts/graphics-magick</Test>
+    <Arguments>-colorspace HWB</Arguments>
+    <Description>HWB Color Space</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/graphics-magick</Test>
+    <Arguments>-lat 10x10-5%</Arguments>
+    <Description>Local Adaptive Thresholding</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/graphics-magick</Test>
+    <Arguments>-resize 50%</Arguments>
+    <Description>Resizing</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/graphics-magick</Test>
+    <Arguments>-sharpen 0x1.0</Arguments>
+    <Description>Sharpen</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/john-the-ripper</Test>
+    <Arguments>TRADITIONAL_DES_MANY_SALTS</Arguments>
+    <Description>Traditional DES</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/john-the-ripper</Test>
+    <Arguments>BLOWFISH</Arguments>
+    <Description>Blowfish</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/ttsiod-renderer</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/compress-pbzip2</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/compress-7zip</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/encode-mp3</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/encode-flac</Test>
   </Execute>
   <Execute>
     <Test>pts/cryptography</Test>
@@ -505,5 +547,23 @@
   </Execute>
   <Execute>
     <Test>pts/x264</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/ffmpeg</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/himeno</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/pgbench</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/apache</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/smallpt</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/tscp</Test>
   </Execute>
 </PhoronixTestSuite>
